@@ -1,5 +1,5 @@
-let a = 1;
-let c = {x: 1, y: 'a'}
+let a1 = 1;
+let c1 = {x: 1, y: 'a'}
 
 let d = (x = 1) => x + 1
 
@@ -16,3 +16,4 @@ let foo: Foo = {
     bar: 1
 }
 // foo.bar = 1
+

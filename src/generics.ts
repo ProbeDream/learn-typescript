@@ -18,10 +18,10 @@ class Log3<T> {
         return value
     }
 }
-let log1 = new Log3<number>()
-log1.run(1)
-let log2 = new Log3()
-log2.run({ a: 1 })
+let log11 = new Log3<number>()
+log11.run(1)
+let log21 = new Log3()
+log21.run({ a: 1 })
 
 interface Length {
     length: number
